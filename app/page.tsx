@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <ChatWindow
       endpoint="api/chat"
-      emoji="🏴‍☠️"
+      emoji="🎤"
       titleText="Taylor Swift FAQ Chatbot"
       emptyStateComponent={InfoCard}
     ></ChatWindow>
