@@ -1,3 +1,54 @@
+
+# 1 Objectives
+1. **Build an FAQ Chatbot**: Create a chatbot that can answer questions about Taylor Swift, drawing information from a specified knowledge base.
+2. **Implement Semantic Search**: Use Semantic Search to sift through the knowledge base and find the most relevant information in response to user queries.
+3. **Leverage RAG for Responses**: Incorporate the RAG technique to generate answers. This involves retrieving information with Semantic Search before using LLM to construct the response.
+4. **Handle Follow-Up Questions**: Ensure the bot can manage follow-up questions such as "What was her first album?" and "When did it come out?" by maintaining context and providing accurate, updated information.
+5. **Task Oriented Dialog**: Integrate a Task-Oriented Dialogue (TOD) system that can recommend the album best suited for learning more about Taylor Swift given some questions. For example: “AI: What mood are you in? -> “User: Sad” -> return Taylor Swift’s Saddest Album.
+
+# 2  How It Works
+1. Users can ask any question about Taylor Swift, and the chatbot will use Semantic Search to find relevant information from the 
+   knowledge base.
+2. The RAG technique helps in generating comprehensive and accurate responses.
+3. For follow-up questions, the chatbot maintains context to provide relevant answers.
+4. The TOD system interacts with users to recommend Taylor Swift albums based on their mood or preference queries.
+
+# 3 Features
+
+- **Intuitive User Interface**: Designed with Tailwind CSS for a responsive and engaging user experience.
+- **Advanced Search and Retrieval**: Incorporates Semantic Search and RAG for accurate and detailed responses.
+- **Context Awareness**: Capable of handling complex conversation flows and remembering user context.
+- **Personalized Recommendations**: Offers tailored album suggestions based on user input and preferences.
+
+# 4 Technologies used
+
+-  **Langchain** (https://en.wikipedia.org/wiki/LangChain)
+   - is a framework designed to simplify the creation of applications using large language models (LLMs)
+-  **Next.js** (https://en.wikipedia.org/wiki/Next.js)
+   - Next.js enables you to create high-quality web applications with the power of React components.
+-  **Javascript** (https://en.wikipedia.org/wiki/JavaScript)
+   - an object-oriented computer programming language commonly used to create interactive effects within web browsers. 
+-  **Typescript** (https://en.wikipedia.org/wiki/TypeScript)
+   - a syntactic superset of JavaScript which adds static typing. 
+-  **Tailwind CSS** (https://en.wikipedia.org/wiki/Tailwind_CSS)
+   - is a utility-first CSS framework that streamlines web development by providing a set of pre-designed utility classes. 
+-  **Vercel** (https://en.wikipedia.org/wiki/Vercel)
+   - is a cloud platform for building, deploying, and scaling serverless applications and static websites.  
+-  **Github** (https://en.wikipedia.org/wiki/GitHub)
+   - is a developer platform that allows developers to create, store, manage and share their code. 
+
+# 5 Contributions
+Contributions are welcome! If you have suggestions or want to improve the chatbot, please feel free to fork the repository, make changes, and submit a pull request.
+
+# 6 Acknowledgments
+Taylor Swift and her discography, for being the inspiration behind this project.
+The open-source community, for providing the tools and technologies that made this project possible.
+Voxly Digital for allowing to take on this project
+
+
+
+
+
 # 🦜️🔗 LangChain + Next.js Starter Template
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain-nextjs-template)
