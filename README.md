@@ -1,4 +1,7 @@
 
+# Live website - https://voxly-digital-langchain-test.vercel.app/
+
+
 # 1 Objectives
 1. **Build an FAQ Chatbot**: Create a chatbot that can answer questions about Taylor Swift, drawing information from a specified knowledge base.
 2. **Implement Semantic Search**: Use Semantic Search to sift through the knowledge base and find the most relevant information in response to user queries.
