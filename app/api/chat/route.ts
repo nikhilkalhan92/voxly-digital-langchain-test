@@ -30,8 +30,8 @@ export async function POST(req: NextRequest) {
     const model = new ChatOpenAI({
       temperature: 0.8,
       modelName: "gpt-3.5-turbo-1106",
+      openAIApiKey : process.env.OPEN_API_KEY
     });
-
 
     const outputParser = new HttpResponseOutputParser();
 
