@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
     const model = new ChatOpenAI({
       temperature: 0.8,
       modelName: "gpt-3.5-turbo-1106",
-      openAIApiKey : "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"
+      openAIApiKey : "sk-oLTsykMJb9baSVDzqhWvT3BlbkFJTBBW3EvzRiNGx7oVIYhusk-oLTsykMJb9baSVDzqhWvT3BlbkFJTBBW3EvzRiNGx7oVIYhu"
     });
 
     const outputParser = new HttpResponseOutputParser();
